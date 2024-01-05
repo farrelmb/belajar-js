@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        for (let k = 1600; k <= 2024; k++) {
+            if (k % 4 != 0) {
+                document.write(k + '<span> bukan tahun kabisat!</span><br>')
+            } else if (k % 100 != 0) {
+                document.write(k + '<span> merupakan tahun kabisat!</span><br>')
+            } else if (k % 400 != 0) {
+                document.write(k + '<span> bukan tahun kabisat!</span><br>')
+            } else {
+                document.write(k + '<span> bukan tahun kabisat!</span><br>')
+            }
+        }
+    </script>
+</body>
+
+</html>

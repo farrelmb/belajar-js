@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2>ganjil-genap for</h2>
+    <script>
+        for (let i = 1; i <= 50; i++) {
+            if (i % 2 == 0) {
+                document.write("<span>genap:</span>" + i + '<br>');
+            } else {
+                document.write("<span>ganjil:</span>" + i + '<br>');
+            }
+        }
+    </script>
+    <h2>ganjil-genap while</h2>
+    <script>
+        a = 1
+        while (a <= 50) {
+            if (a % 2 == 0) {
+                document.write("<span>genap:</span>" + a + '<br>')
+            } else {
+                document.write("<span>ganjil:</span>" + a + '<br>')
+            }
+            a++;
+        }
+    </script>
+    <h2>ganjil-genap do-while</h2>
+    <script>
+        let f=1      
+        do {
+            if (f % 2 == 0) {
+                document.write("<span>genap:</span>" + f + '<br>');
+            } else {
+                document.write("<span>ganjil:</span>" + f +'<br>')
+            }
+                f++;
+        } while (f <= 50);
+    </script>
+    <h1>while</h1>
+    <h2>genap 1-100</h2>
+    <script>
+        b = 1
+        while (b <= 100) {
+            if (b % 2 == 0) {
+                document.write(b + '<br>')
+            }
+            b++;
+        }
+    </script>
+    <h2>ganjil 100-1</h2>
+    <script>
+        c = 100
+        while (c > 0) {
+            if (c % 2 != 0) {
+                document.write(c + '<br>')
+            }
+            c--;
+        }
+    </script>
+    <h1>for</h1>
+    <h2>genap 1-100</h2>
+    <script>
+        for (let d = 1; d <= 100; d++) {
+            if (d % 2 == 0) {
+                document.write(d + '<br>')
+            }
+        }
+    </script>
+    <h2>ganjil 100-1</h2>
+    <script>
+        for (let e = 100; e > 0; e--) {
+            if (e % 2 != 0) {
+                document.write(e + '<br>')
+            }
+        }
+    </script>
+</body>
+
+</html>
